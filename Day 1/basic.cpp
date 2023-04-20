@@ -35,7 +35,7 @@ int a = 4;
 //added main to get boiler plate kinda
 
 //creating calc type software
-  int num1, num2;
+  int num1, num2 ;
 
     cout<<"enter the value of num1:\n";
     cin>>num1;   //cin is kinda like mere se lo like num1 ko bola mere me aao 
