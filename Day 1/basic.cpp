@@ -28,6 +28,22 @@ int a = 4;
     cout<<"\n value of ayush is "<<false;
 
     // ....
+
+
+//added main to get boiler plate kinda
+
+//creating calc type software
+  int num1, num2;
+
+    cout<<"enter the value of num1:\n";
+    cin>>num1;   //cin is kinda like mere se lo like num1 ko bola mere me aao 
+
+
+    cout<<"enter the value of num2:\n";
+    cin>>num2;
+
+    cout<<"the sum is:\n"<<num1+num2; 
+
     return 0;
 }
 
