@@ -32,7 +32,7 @@ int a = 4;
     // ....
 
 
-//added main to get boiler plate kinda
+//added main to get boiiler plate kinda
 
 //creating calc type software
   int num1, num2 ;
