@@ -34,7 +34,7 @@ int a = 4;
 
 //added main to get boiler plate kinda
 
-//creating calc type software
+//creating calc type softwareee
   int num1, num2 ;
 
     cout<<"enter the value of num1:\n";
