@@ -312,7 +312,7 @@ int main()
  cout<<"these are mathmarks "<<mathmarks[0]<<endl;//aise bhi likh skte but niche wala is jada nice looking
  
 
-//we can change the value of an array in middle of code using array name and specify tha value
+//we can change the valuue of an array in middle of code using array name and specify tha value
 
  mathmarks[2]=544;//value of mathmarks[2] changed before printing
  cout<<mathmarks[0]<<endl;
