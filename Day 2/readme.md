@@ -1,4 +1,4 @@
-Hey, #connections I'm thrilled to share that I've completed my DAY 2 of the #100DaysOfCode challenge, and I'm already making progress. I am following a course on Data structures and algorithm in C++ , following the course today I revised some of basic key topics of c++ like constants , manipulators , operator precedence, control structures, if else, switch case statement , loops , for loops , while loops , do while loop , break and continue statements ,
+Hey, #connections I'm thrilled to share that I've completed my DAY 2 of the #100DaysOfCode challenge, and I'm already making progress. I am following a course on Data structures and algorithm in C++ , following the course today I revised some of basic key topics of c++ like constants , manipulators , operator precedence, control structures, if else, switch case statement , loops , for loops , while loops , do while loop , break and continue statements and the most important topic that is pointers and how to create array in different ways .
 
 
 
