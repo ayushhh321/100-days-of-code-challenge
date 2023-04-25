@@ -7,7 +7,7 @@ int main()
     int a=122;
     cout<<a<<endl;
 
-    char b = 'q';
+    char b = 'q' ;
     cout<<b<<endl;   
 
     float c=1.2;
