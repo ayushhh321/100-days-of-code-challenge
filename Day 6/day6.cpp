@@ -53,11 +53,8 @@ int main()
   int qwe= 34/5;
   cout<<qwe<<endl;
 
-  int wwe= 3.4/5;
+  int wwe= 3.4/5; // at the end output int hi rhega bcz we assigned int data types
   cout<<wwe<<endl;
 
-  
-
-
-    return 0;
+  return 0;
 }
