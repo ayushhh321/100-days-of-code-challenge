@@ -8,3 +8,4 @@ Although I have solved these similar topics questions but kinda revising them ag
 #DSA #CPP #VIT
     
 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/ayushgupta.73/)
