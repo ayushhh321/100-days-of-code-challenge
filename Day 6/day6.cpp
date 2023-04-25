@@ -49,6 +49,8 @@ int main()
   float abc=2.3/4;
   cout<<abc<<endl; //will give float value
 
+  
+
 
     return 0;
 }
