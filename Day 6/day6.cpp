@@ -35,6 +35,12 @@ int main()
     cout<<ch1<<endl;
 
     unsigned int w=12;
-    cout<<
+    cout<<w<<endl;
+
+    unsigned int q = -12; //gives error check explanation in copy
+    cout<<q<<endl;
+
+
+
     return 0;
 }
