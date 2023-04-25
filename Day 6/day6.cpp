@@ -24,7 +24,10 @@ int main()
    int size= sizeof(e);
    cout<<"size of e is : "<<size<<endl;
 
+     int f='f';
+     cout<<f<<endl;
 
+  
 
     return 0;
 }
