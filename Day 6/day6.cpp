@@ -10,16 +10,19 @@ int main()
     char b = 'q';
     cout<<b<<endl;   
 
-    float c='1.2';
+    float c=1.2;
      cout<<c<<endl;  
 
-    bool d='true';
+    bool d=true;
     cout<<d<<endl;  
-      
-    double e ='1.23';
+
+    double e =1.23;
     cout<<e<<endl;    
 
+    //sizeof using to know which data type holding how much byte in memory
 
+   int size= sizeof(e);
+   cout<<"size of e is : "<<size<<endl;
 
 
 
