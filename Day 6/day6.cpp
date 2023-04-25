@@ -24,12 +24,17 @@ int main()
    int size= sizeof(e);
    cout<<"size of e is : "<<size<<endl;
 
+  // typecasting
      int f='f';
      cout<<f<<endl;
 
     char ch=98;
     cout<<ch<<endl;
 
+    char ch1=123455; //gives error check explanation in copy
+    cout<<ch1<<endl;
 
+    unsigned int w=12;
+    cout<<
     return 0;
 }
