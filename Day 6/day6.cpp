@@ -40,6 +40,14 @@ int main()
     unsigned int q = -12; //gives error check explanation in copy
     cout<<q<<endl;
 
+   //operators core concept
+
+   int r= 34/4;
+ cout<<r<<endl;  //will give int value
+
+
+  float abc=2.3/4;
+  cout<<abc<<endl; //will give float value
 
 
     return 0;
