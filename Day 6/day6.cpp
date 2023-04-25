@@ -27,7 +27,9 @@ int main()
      int f='f';
      cout<<f<<endl;
 
-  
+    char ch=98;
+    cout<<ch<<endl;
+
 
     return 0;
 }
