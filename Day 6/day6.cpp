@@ -50,6 +50,13 @@ int main()
   cout<<abc<<endl; //will give float value
 
   
+  int qwe= 34/5;
+  cout<<qwe<<endl;
+
+  int wwe= 3.4/5;
+  cout<<wwe<<endl;
+
+  
 
 
     return 0;
