@@ -4,15 +4,18 @@ using namespace std;
 int main()
 {
 
-    int n ;
-    cin>>n;
+    int a;
+    cin>>a;
 
-    if(n>0);
+    if(a>0)
     {
-        cout<<"hellow world";
-        
+      cout<<"A is positive"<<endl;
     }
-    
+
+    else
+    {
+      cout<<"A is negative"<<endl;
+    }
     return 0;
 
 }
