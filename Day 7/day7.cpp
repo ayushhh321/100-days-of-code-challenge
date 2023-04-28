@@ -38,25 +38,27 @@ int main()
 
    //print the number is positive , negative or zero
    
-   int a ;
-   cout<<"enter the number "<<endl;
-   cin>>a;
+//    int a ;
+//    cout<<"enter the number "<<endl;
+//    cin>>a;
    
-   if(a>0)
-   {
-    cout<<"given number is postive"<<endl;
-   }
+//    if(a>0)
+//    {
+//     cout<<"given number is postive"<<endl;
+//    }
    
-   else if(a<0)
-   {
-    cout<<"the given number is negative"<<endl;
-   }
+//    else if(a<0)
+//    {
+//     cout<<"the given number is negative"<<endl;
+//    }
 
-   else
-   {
-    cout<<"given number is zero"<<endl;
-   }
+//    else
+//    {
+//     cout<<"given number is zero"<<endl;
+//    }
+   
 
+   
 
     return 0;
 
