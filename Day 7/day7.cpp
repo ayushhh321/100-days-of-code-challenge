@@ -47,14 +47,14 @@ int main()
     cout<<"given number is postive"<<endl;
    }
    
-   else if(a=0)
+   else if(a<0)
    {
-    cout<<"the given number is zero"<<endl;
+    cout<<"the given number is negative"<<endl;
    }
 
    else
    {
-    cout<<"given number is negative"<<endl;
+    cout<<"given number is zero"<<endl;
    }
 
 
