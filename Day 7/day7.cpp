@@ -17,7 +17,7 @@ int main()
     //   cout<<"A is negative"<<endl;
     // }
 
-    // to print and check a>b and b<a 
+    // P1 to print and check a>b and b<a 
 
 //    int a , b ;
 //    cout<<"enter the value of a "<<endl;
@@ -36,7 +36,7 @@ int main()
 //     cout<<"B is greater"<<endl;
 //  }
 
-   //print the number is positive , negative or zero
+   // P 2 print the number is positive , negative or zero
    
 //    int a ;
 //    cout<<"enter the number "<<endl;
@@ -57,6 +57,8 @@ int main()
 //     cout<<"given number is zero"<<endl;
 //    }
    
+
+ //P 3 a---z , A----Z , 0---9 --->> print lower , upper and numeric respeticvely
 
    
 
