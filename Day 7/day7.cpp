@@ -77,8 +77,6 @@ int main()
     else
     {
         cout<<"given charcter is upper case"<<endl;
-        
-
     }
 
     return 0;
