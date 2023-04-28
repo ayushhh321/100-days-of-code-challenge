@@ -18,5 +18,27 @@ int main()
     }
     
     // print sum of 1 to n numbers
+     
+    int x;
+    cin>>x;
+
+    int I=1; //starting point
+    int sum=0; //starting point
+
+    while(I<=x)
+    {
+        sum=sum+I;
+        I=I+1;      // see this logic in copy how and why they are written like this
+    }
+
+    cout<<"the value of sum is "<<sum<<endl;
+
+
+
+
+
+
+
+
     return 0 ;
 }
