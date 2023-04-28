@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+    //print 1 to n
     int n ;
     cin>>n;
 
@@ -16,6 +17,6 @@ int main()
         i=i+1;  // age badhne ke liye add krna hoga
     }
     
-    
+    // print sum of 1 to n numbers
     return 0 ;
 }
