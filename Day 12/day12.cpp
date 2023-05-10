@@ -10,7 +10,10 @@ int main()
     {
         cout<<"stage 1 "<<endl;
     }
-
+      
+    else{
+        cout<<"stage 2"<<endl;
+    }
 
 
 
