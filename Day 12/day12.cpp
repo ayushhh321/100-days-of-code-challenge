@@ -15,7 +15,8 @@ int main()
         cout<<"stage 2"<<endl;
     }
 
-
+  return 0;
+  
 
 
 
