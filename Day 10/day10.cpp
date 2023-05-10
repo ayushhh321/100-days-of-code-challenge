@@ -22,7 +22,14 @@ int main()
 
 
     //pre-post increment and decrement
-    
+
+    int i =5;
+     cout<<i++<<endl;
+     cout<<++i<<endl;
+     cout<<i--<<endl;
+     cout<<--i<<endl;
+
+
 
    return 0;
 
