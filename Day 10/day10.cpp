@@ -18,8 +18,11 @@ int main()
     cout<<(17<<2)<<endl;
     cout<<(18<<1)<<endl;
     cout<<(17>>2)<<endl;
-    cout<<(18>>1)<<endl; 
+    cout<<(18>>1)<<endl;
 
+
+    //pre-post increment and decrement
+    
 
    return 0;
 
