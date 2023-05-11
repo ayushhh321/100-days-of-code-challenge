@@ -37,5 +37,9 @@ int main()
          }
     }
     
+
+    //continue condition
+
+    for(int)
     return 0;
 }
