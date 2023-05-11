@@ -22,10 +22,5 @@ int main()
     b=nextNumber;
 
    }
-  
-  
-  
-  
-  
-     return 0;
+   return 0;
 }
