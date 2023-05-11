@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+    // method 1 isase kya hoga ki i ki saari value n tk pata chal jyegi kisase prime hai kisase nai hai
     int n;
     cout<<"enter the value of n "<<endl;
     cin>>n;
@@ -14,8 +15,7 @@ int main()
         if(n%i==0)
         {
             cout<<"not prime for "<<i<<endl;
-
-        }
+         }
         
         else{
             cout<<"prime for "<<i<<endl;
