@@ -24,7 +24,18 @@ int main()
     
     //method 2 without using else condituon we will use break isase kya hoga ki exact wo number bata dega jaha pr prime/not prime hoga n tak jygega hi nai
     
-    
+    int n;
+    cout<<"enter the value of n "<<endl;
+    cin>>n;
+
+    for(int i = 2 ; i<n ; i++)
+    {
+         if(n%i==0)
+         {
+            cout<<"not prime"<<endl;
+            break; //now this time n tak jane se phle bich me koi non prime mil gaya wahi pr answer deke ye loop ko band kr dega
+         }
+    }
     
     
     
