@@ -1,0 +1,1 @@
+//chcek weather the given no. is prime or not using for loop
