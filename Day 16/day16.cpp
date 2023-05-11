@@ -48,6 +48,23 @@ int main()
     }
 
 
+
+  //conitnue statement
+
+  for(int i = 0 ; i<5 ; i++)
+  {
+    cout<<"hi"<<endl;
+    cout<<"hey"<<endl;
+    continue;
+
+    cout<<"reply"<<endl;
+  }
+   
+
+
+
+
+
     
     return 0;
 }
