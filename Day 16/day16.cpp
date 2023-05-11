@@ -22,7 +22,7 @@ int main()
         }
     }
     
-    
+    //method 2 without using else condituon we will use break isase kya hoga ki exact wo number bata dega jaha pr prime/not prime hoga n tak jygega hi nai
     
     
     
