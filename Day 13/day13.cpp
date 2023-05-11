@@ -18,6 +18,7 @@ int main()
 
     
     
+    //multiples condition in For loop
     
     
     
