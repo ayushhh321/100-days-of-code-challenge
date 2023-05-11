@@ -38,8 +38,16 @@ int main()
     }
     
 
-    //continue condition
+    //infinite loop
+    
 
-    for(int)
+    for(int i =0 ; i<=1 ; i++)
+    {
+        cout<<"hi"<<endl;
+        i=0;
+    }
+
+
+    
     return 0;
 }
