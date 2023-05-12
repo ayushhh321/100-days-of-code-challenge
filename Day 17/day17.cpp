@@ -24,8 +24,12 @@ int main()
 
     int b=3;
     cout<<b<<endl;//it will now create error like same block two diffrent defined values
-    
-        
+
+     int i=8;
+     for(; i<8;i++)
+     {
+        cout<<"hi"<<endl;
+     }   
     
     
     
