@@ -31,6 +31,16 @@ int main()
         cout<<"hi"<<endl;
      }   
     
+
+    if(1){
+        int b;
+        if(1)
+        {int b;}
+        if(1)
+        {
+            cout<<b<<endl;
+        }
+    }
     
     
     
