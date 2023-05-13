@@ -1,7 +1,7 @@
 Hey, #connections I'm thrilled to share that I've completed my DAY 15 of the #100DaysOfCode challenge, and I'm already making progress. I am following a course on Data structures and algorithm in C++ , following the course today I learned concept of fibonacci series.
 
 
-I'm so glad to be taking part in this challenge and pushing myself to become a better coder. It's amazing what a little bit of focus and determination can do. I can't wait to see what the next 86 days bring .
+I'm so glad to be taking part in this challenge and pushing myself to become a better coder. It's amazing what a little bit of focus and determination can do. I can't wait to see what the next 85 days bring .
 
 You can check my daily progress on my #github :- https://lnkd.in/daBn5B4G
 
