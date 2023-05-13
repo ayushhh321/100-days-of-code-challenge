@@ -60,11 +60,5 @@ int main()
     cout<<"reply"<<endl;
   }
    
-
-
-
-
-
-    
-    return 0;
+   return 0;
 }
