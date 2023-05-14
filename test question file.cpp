@@ -44,5 +44,10 @@ int main()
 	cout<<"write your number"<<endl;
 	cin>>n;
 
-	 
+	 if(n==1,2,3,4,5,6,7,8,9)
+	 {
+		cout<<"one,two,three,four,five,six,seven,eight,nine"<<endl;
+
+	 }
+	 return 0;
 }
