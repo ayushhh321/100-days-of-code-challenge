@@ -72,8 +72,11 @@ int main()
 	 else if(n==9)
 	 {cout<<"nine"<<endl;}
      
+     else(n>9);
+	 {
+		cout<<"Greater than 9"<<endl;
+	 }
 
-	 
 
 
 
