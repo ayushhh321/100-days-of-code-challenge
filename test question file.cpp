@@ -38,6 +38,8 @@
 // 	return 0;
 // }
 
+
+//problem 2 - 1-9 write in lowercase and for greater than 9 print greater than 9
 #include<iostream>
 using namespace std ;
 
