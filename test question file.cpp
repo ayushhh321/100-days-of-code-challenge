@@ -1,3 +1,6 @@
+//problem 1 - 1-9 print in lowercase and apart from this write the even odd
+
+
 // #include <cmath>
 // #include <cstdio>
 // #include <vector>
