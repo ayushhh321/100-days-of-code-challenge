@@ -44,5 +44,5 @@ int main()
 	cout<<"write your number"<<endl;
 	cin>>n;
 
-	
+	 
 }
