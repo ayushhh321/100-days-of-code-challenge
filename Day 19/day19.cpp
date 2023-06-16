@@ -10,6 +10,8 @@ int main()
     cout << "enter ur number" << endl;
     cin >> n;
 
+
+//here we can see we dont need loop for chceking even odd 
     // for (int i = 0; i <= n; i++)
     {
         if (n % 2 == 0)
