@@ -13,19 +13,19 @@ int main()
 
 //here we can see we dont need loop for chceking even odd
 
-    // for (int i = 0; i <= n; i++)
+    for (int i = 0; i <= n; i++)
 
     //to handle for loop in conditional statement we have to use break and continue statement also .
     {
         if (n % 2 == 0)
         {
             cout << "Given number is even" << endl;
-            // break;
+            break;
         }
         else
         {
             cout << "Given number is odd" << endl;
-            // break;
+            break;
         }
     }
 
