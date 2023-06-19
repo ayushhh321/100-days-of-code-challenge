@@ -32,3 +32,5 @@ The loop iterates as long as the condition "i <= n" holds true. The variable "i"
 Let's consider the number of iterations required to reach or exceed the value of n. At each iteration, "i" is doubled, so the loop will execute log₂(n) times before "i" exceeds n.
 
 Therefore, the time complexity of the code is O(log n).
+
+
