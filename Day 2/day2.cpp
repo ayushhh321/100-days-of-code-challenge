@@ -14,6 +14,8 @@ int main()
     /*see yaha pr hum a ke do values liye fir dono ko print karane ke liye cout liye no issues do a ke values print hore
     but we want ki a ki value constant hojaye toh we use Constant in c++ and the keyword for that is const (data type)*/
 
+
+
     const int a = 7;
 
     cout<<"the value of a is "<<a<<endl;
