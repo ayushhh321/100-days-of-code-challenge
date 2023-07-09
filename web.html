@@ -117,4 +117,44 @@
 
  --> 
 
- 
+ <html>
+    <head>
+        <title>multiply</title>
+        <script>
+            function multiplicationQuiz() {
+  var num1 = Math.floor(Math.random() * 9) + 1;
+  var num2 = Math.floor(Math.random() * 9) + 1;
+  var answer = num1 * num2;
+
+  var responseIndex = Math.floor(Math.random() * 4) + 1;
+
+  var userAnswer = prompt("How much is " + num1 + " times " + num2 + "?");
+
+  var correctResponses = [
+    "Very good!",
+    "Excellent!",
+    "Nice work!",
+    "Keep up the good work!"
+  ];
+
+  var incorrectResponses = [
+    "No. Please try again.",
+    "Wrong. Try once more.",
+    "Don't give up!",
+    "No. Keep trying."
+  ];
+
+  if (parseInt(userAnswer) === answer) {
+    var correctResponse = correctResponses[responseIndex - 1];
+    alert(correctResponse);
+  } else {
+    var incorrectResponse = incorrectResponses[responseIndex - 1];
+    alert(incorrectResponse);
+  }
+}
+
+multiplicationQuiz();
+
+        </script>
+    </head>
+ </html>
