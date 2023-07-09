@@ -57,7 +57,7 @@ cv2.waitKey(0)
 # Display the original image, Canny edges, and Sobel edges
 cv2.imshow('Original Image', image)
 cv2.imshow('Canny Edges', edges_canny)
-cv2.imshow('Sobel Edges', edges_sobel)
+cv2.imshow('Sobel Edges', sobelxy)
 
 # Wait for a key press and then close the windows
 cv2.waitKey(0)
