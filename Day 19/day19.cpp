@@ -35,6 +35,14 @@ int main()
 
 
 
+
+
+
+
+
+
+
+
 //question -- Smallest Even Multiple
 
 class Solution {
@@ -48,5 +56,11 @@ public:
         }
     }
 };
+
+
+
+
+
+
 
 
