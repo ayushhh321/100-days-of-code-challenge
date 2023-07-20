@@ -31,18 +31,6 @@ int main()
 
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 //question -- Smallest Even Multiple
 
 class Solution {
