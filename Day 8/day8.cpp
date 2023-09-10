@@ -20,6 +20,8 @@ int main()
     // print sum of 1 to n numbers
      
 
+
+
      
     int x;
     cin>>x;
