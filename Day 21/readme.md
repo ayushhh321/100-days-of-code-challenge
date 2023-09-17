@@ -1,2 +1,2 @@
 string
-conctenation - using append
+concatenation - using append
