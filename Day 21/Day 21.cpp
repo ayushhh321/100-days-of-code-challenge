@@ -39,9 +39,8 @@ int main()
 //     string z = x + y;
 
 
-string x = "10";
+string x="10";
 int y = 20;
-string z = x + y;
     
     return 0;
 }
