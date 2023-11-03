@@ -14,6 +14,7 @@ void printCounting(int num) {
 int main() {
 
     int n;
+    cout<<"enter the value of n"<<endl;
     cin >> n;
 
     //function Call
