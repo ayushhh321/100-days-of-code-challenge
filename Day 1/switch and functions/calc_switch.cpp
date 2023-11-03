@@ -12,6 +12,7 @@ cout<<"enter the values of a"<<endl;
   cout<<"enter the values of b"<<endl;
   cin>>b;
 
+
   char operation;
   cout<<"enter the operaition"<<endl;
   cin>>operation;
