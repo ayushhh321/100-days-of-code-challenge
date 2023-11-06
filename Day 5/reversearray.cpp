@@ -31,7 +31,10 @@ int main()
   cout<<"normal arrray is " << printArray(evenarr,6);
   cout<<"reverse array of even array " << reversearray(evenarr,6);
 
-  
+  cout<<"normal arrray is " << printArray(oddarr,6);
+  cout<<"reverse array of odd array " << reversearray(oddarr,6);
+
+
 
 
 
