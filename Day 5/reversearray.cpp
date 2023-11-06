@@ -29,12 +29,17 @@ int main()
   int evenarr[6]={3,8,-3,4,0,7};
   int oddarr[5]={5,9,0,5,-1};
 
-  cout<<"normal arrray is " << printArray(evenarr,6);
-  cout<<"reverse array of even array " << reversearray(evenarr,6);
+  cout << "Normal array is: ";
+    printArray(evenarr, 6);
+    cout << "Reverse array of even array: ";
+    reversearray(evenarr, 6);
+    printArray(evenarr, 6);
 
-  cout<<"normal arrray is " << printArray(oddarr,6);
-  cout<<"reverse array of odd array " << reversearray(oddarr,6);
-
+    cout << "Normal array is: ";
+    printArray(oddarr, 5);
+    cout << "Reverse array of odd array: ";
+    reversearray(oddarr, 5);
+    printArray(oddarr, 5);
 
 
 
