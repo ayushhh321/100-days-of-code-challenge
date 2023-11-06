@@ -84,5 +84,12 @@ int y=15;
 printArray(array2,15);
 
 
+//array in char
+
+
+
+
+
+
   return 0;
 }
