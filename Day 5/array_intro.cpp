@@ -52,3 +52,37 @@
 
 //now writinh the wholw code using functions
 
+#include<iostream>
+using namespace std;
+
+
+void printArray(int arr[], int size)
+{
+  cout<<"this function helps in printing the array"<<endl;
+  for(int i=0 ; i<size ; i++)
+  {
+    cout<<arr[i]<<endl;
+  }
+  cout<<"printing done"<<endl;
+}
+
+int main()
+{
+   //printing array1 using function calling like upar fucntion me you have already defined ki parameter kya honge like ek array hoga and ek int number hoga jo array ka size hoga so niche aake normal function call
+   int array1[10]={2,3};
+
+   int n =10; //size of array
+   printArray(array1 , 10);
+
+   cout<<"done"<<endl;
+
+//same with another example
+
+int array2[15]={2,3,4};
+
+int y=15;
+printArray(array2,15);
+
+
+  return 0;
+}
