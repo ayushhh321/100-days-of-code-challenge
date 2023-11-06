@@ -37,7 +37,15 @@ for(int i=0; i<n ; i++)
   cout<<fourth[i]<<endl;
 }
 
+//initalising all locations with 1 [not possible with below line use fill_n for that]
+int fifth[10]={1};
 
+int n=10; //size of array
+
+for(int i=0 ; i<n ; i++)
+{
+  cout<<fifth[i]<<endl;
+}
 
   return 0;
 }
