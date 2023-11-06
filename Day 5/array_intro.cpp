@@ -86,8 +86,15 @@ printArray(array2,15);
 
 //array in char
 
+char ch[5]={'a','b','c','d','e'};
+cout<<"value at 3 block"<<ch[3];
+ //now here you cant print array using void printArray function bcz void wale fucntions me parameter int array ka hai naa ki char array ke you can make another fucntion for this char array
 
-
+ int charsize=5;
+ for(int i=0 ; i<charsize ; i++)
+ {
+  cout<<ch[i]<<endl;
+ }
 
 
 
