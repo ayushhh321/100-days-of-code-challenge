@@ -1,0 +1,52 @@
+2785. Sort Vowels in a String
+Medium
+750
+45
+Companies
+Given a 0-indexed string s, permute s to get a new string t such that:
+
+All consonants remain in their original places. More formally, if there is an index i with 0 <= i < s.length such that s[i] is a consonant, then t[i] = s[i].
+The vowels must be sorted in the nondecreasing order of their ASCII values. More formally, for pairs of indices i, j with 0 <= i < j < s.length such that s[i] and s[j] are vowels, then t[i] must not have a higher ASCII value than t[j].
+Return the resulting string.
+
+The vowels are 'a', 'e', 'i', 'o', and 'u', and they can appear in lowercase or uppercase. Consonants comprise all letters that are not vowels.
+
+ 
+
+Example 1:
+
+Input: s = "lEetcOde"
+Output: "lEOtcede"
+Explanation: 'E', 'O', and 'e' are the vowels in s; 'l', 't', 'c', and 'd' are all consonants. The vowels are sorted according to their ASCII values, and the consonants remain in the same places.
+
+
+
+class Solution {
+public:
+    std::string sortVowels(string& s) const {
+        // Array to store the count of each ASCII value
+        std::array<int, 256> ascii{};
+        std::vector<int> vowelIndexes;
+        for(size_t i = 0; i < s.size(); ++i){
+           const auto& currentChar = std::tolower(s[i]);
+           if(currentChar == 'a' || currentChar == 'e' || currentChar == 'i' || currentChar == 'o' || currentChar == 'u'){
+               //Increment the count for the ASCII value of the vowel               
+               ascii[static_cast<int>(s[i])]++; 
+               vowelIndexes.emplace_back(i);
+           }
+        }
+        size_t currentAscii = 0;
+        for(size_t i = 0; i < vowelIndexes.size(); ++i){
+            //Find the next non-zero count ASCII value
+            while(ascii[currentAscii] <= 0){
+                ++currentAscii;
+            }
+            //Replace the original vowel with the next ASCII value
+            s[vowelIndexes[i]] = static_cast<char>(currentAscii);           
+            //Decrease the count of the used ASCII value
+            --ascii[currentAscii];
+        }
+
+        return s;
+    }
+};
