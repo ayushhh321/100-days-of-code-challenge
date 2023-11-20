@@ -44,7 +44,7 @@ Explanation: The array already satisfies the conditions, and the largest element
 class Solution {
 public:
     int maximumElementAfterDecrementingAndRearranging(vector<int>& arr) 
-    {
+    { 
         sort(arr.begin(), arr.end());
         
         int n=arr.size();
