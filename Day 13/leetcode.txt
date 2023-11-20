@@ -1,0 +1,44 @@
+1930. Unique Length-3 Palindromic Subsequences
+Medium
+1.6K
+67
+Companies
+Given a string s, return the number of unique palindromes of length three that are a subsequence of s.
+
+Note that even if there are multiple ways to obtain the same subsequence, it is still only counted once.
+
+A palindrome is a string that reads the same forwards and backwards.
+
+A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
+
+For example, "ace" is a subsequence of "abcde".
+ 
+
+Example 1:
+
+Input: s = "aabca"
+Output: 3
+Explanation: The 3 palindromic subsequences of length 3 are:
+- "aba" (subsequence of "aabca")
+- "aaa" (subsequence of "aabca")
+- "aca" (subsequence of "aabca")
+
+
+class Solution {
+public:
+    int countPalindromicSubsequence(string inputString) {
+    
+    int result = 0;
+    int firstIndex[26] = {[0 ... 25] = INT_MAX};
+    int lastIndex[26] = {};
+
+    for (int i = 0; i < inputString.size(); ++i) {
+        firstIndex[inputString[i] - 'a'] = min(firstIndex[inputString[i] - 'a'], i);
+        lastIndex[inputString[i] - 'a'] = i;
+    }
+    for (int i = 0; i < 26; ++i)
+        if (firstIndex[i] < lastIndex[i])
+            result += unordered_set<char>(begin(inputString) + firstIndex[i] + 1, begin(inputString) + lastIndex[i]).size();
+    return result;
+}
+};
