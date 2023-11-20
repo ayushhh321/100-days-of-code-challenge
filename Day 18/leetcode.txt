@@ -13,7 +13,7 @@ Return the number of operations to make all elements in nums equal.
  
 
 Example 1:
-
+ 
 Input: nums = [5,1,3]
 Output: 3
 Explanation: It takes 3 operations to make all elements in nums equal:
