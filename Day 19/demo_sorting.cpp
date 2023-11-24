@@ -16,3 +16,9 @@ int main()
 
   return 0 ;
 }
+
+//this how you can sort array in descending order
+// std::sort(nums.begin(), nums.end(), std::greater<int>());
+
+//this how you can sort array in ascending order
+//sort(ans.begin(),ans.end());
