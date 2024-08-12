@@ -6,6 +6,8 @@ Note that the time in this problem is in 24-hours format.
 
  
 
+
+
 Example 1:
 
 Input: arrivalTime = 15, delayedTime = 5 
